@@ -13,7 +13,7 @@ $sp: 767px;
 	html .l-body{
 		position: relative;
 		min-width: 1080px;
-    cursor: none;
+    // cursor: none;
 	}
 
   .u-cursor{
@@ -60,6 +60,20 @@ $sp: 767px;
 		width: 34%;
 		opacity: 0.3;
 		transition: 0.4s;
+    &:hover{
+      opacity: 1;
+    }
+    & p{
+      position: absolute;
+      top: 18%;
+      left: 4%;
+      color: #666;
+      font-size: 16px;
+      font-weight: 500;
+      transform: rotate(-70deg);
+      -moz-transform: rotate(-70deg);
+      -webkit-transform: rotate(-70deg);
+    }
   }
 
   .l-pc__imgRight{
@@ -70,6 +84,22 @@ $sp: 767px;
 		width: 34%;
 		opacity: 0.3;
 		transition: 0.4s;
+    &:hover{
+      opacity: 1;
+    }
+    & p{
+      position: absolute;
+      top: 65%;
+      left: 10%;
+      color: #666;
+      font-size: 16px;
+      font-weight: 500;
+      -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+      transform: rotate(-40deg);
+      -moz-transform: rotate(-40deg);
+      -webkit-transform: rotate(-40deg);
+    }
   }
 
   .l-pcBody .l-sp{
