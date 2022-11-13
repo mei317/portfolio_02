@@ -6,6 +6,10 @@
   &__text{
     margin: 0 0 6%;
     text-align: center;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 300;
+    font-family: 'Work Sans';
   }
 
   &__btn{
@@ -20,6 +24,14 @@
     border-radius: 8px;
     background: #51A751;
     color: #fff;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 300;
+    font-family: 'Work Sans';
+    &:hover{
+      background: #fff;
+      color: #51A751;
+    }
   }
 
   &__btn a span{
