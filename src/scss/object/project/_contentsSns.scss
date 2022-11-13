@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.p-contentsSns{
+	padding: 0 5%;
+
+  &__list li{
+      margin: 0 0 6%;
+  }
+
+  &__list li a{
+    padding: 6% 5%;
+    border-radius: 8px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__item p{
+    width: 87%;
+    padding-left: 6%;
+    text-align: left;
+    letter-spacing: 0px;
+  }
+
+  & span{
+    width: 6.5%;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.p-homeHeader{
+  z-index: 100;
+  position: fixed;
+  top: 4%;
+  right: 5%;
+
+  &__nav li{
+    margin: 0 0 24%;
+    text-align:left;
+  }
+}

@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.p-contentsProfile{
+
+  &__img{
+    display: block;
+    margin: 0 0 7.5%;
+  }
+
+  &__text{
+    display: block;
+    padding: 0 5%;
+  }
+
+  &__text h3{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 4%;
+    letter-spacing: 1px;
+    margin: 0 0 4%;
+    letter-spacing: 1px;
+  }
+  &__text span{
+    font-size: 13px;
+  }
+
+  &__text p{
+    line-height: 2;
+    letter-spacing: 0.5px;
+  }
+}

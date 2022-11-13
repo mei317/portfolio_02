@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+.p-contentsContact{
+  padding: 0 5%;
+
+  &__text{
+    margin: 0 0 6%;
+    text-align: center;
+  }
+
+  &__btn{
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__btn a{
+    position: relative;
+    display: block;
+    padding: 6% 5%;
+    border-radius: 8px;
+    background: #51A751;
+    color: #fff;
+  }
+
+  &__btn a span{
+  position: absolute;
+    right: 5%;
+  }
+}

@@ -1,157 +1,63 @@
-/**
- * YUI 3.5.0 - reset.css (http://developer.yahoo.com/yui/3/cssreset/)
- * http://cssreset.com
- * Copyright 2012 Yahoo! Inc. All rights reserved.
- * http://yuilibrary.com/license/
- */
-/*
-	TODO will need to remove settings on HTML since we can't namespace it.
-	TODO with the prefix, should I group by selector or property for weight savings?
-*/
-html{
-	color:#000;
-	background:#FFF;
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: none;
+font-style: normal;
+text-align: center;
+zoom: 1;
 }
-/*
-	TODO remove settings on BODY since we can't namespace it.
-*/
-/*
-	TODO test putting a class on HEAD.
-		- Fails on FF.
-*/
-body,
-div,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-code,
-form,
-fieldset,
-legend,
-input,
-textarea,
-p,
-blockquote,
-th,
-td {
-	margin:0;
-	padding:0;
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
 }
 table {
-	border-collapse:collapse;
-	border-spacing:0;
+border-collapse: collapse;
+font-family: inherit;
 }
-fieldset,
-img {
-	border:0;
+h1,h2,h3,h4,h5 {
+font-size: 100%;
+font-weight: normal;
+line-height: 1;
 }
-/*
-	TODO think about hanlding inheritence differently, maybe letting IE6 fail a bit...
-*/
-address,
-caption,
-cite,
-code,
-dfn,
-em,
-strong,
-th,
-var {
-	font-style:normal;
-	font-weight:normal;
+input,textarea,select {
+font-family: inherit;
+font-size: 16px;
 }
-
-ol,
-ul {
-	list-style:none;
+input[type="button"],input[type="text"],input[type="submit"] {
+-webkit-appearance: none;
+border-radius: 0;
 }
-
-caption,
-th {
-	text-align:left;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-size:100%;
-	font-weight:normal;
-}
-q:before,
-q:after {
-	content:'';
-}
-abbr,
-acronym {
-	border:0;
-	font-variant:normal;
-}
-/* to preserve line-height and selector appearance */
-sup {
-	vertical-align:text-top;
-}
-sub {
-	vertical-align:text-bottom;
-}
-input,
-textarea,
-select {
-	font-family:inherit;
-	font-size:inherit;
-	font-weight:inherit;
-}
-/*to enable resizing for IE*/
-input,
-textarea,
-select {
-	*font-size:100%;
-}
-/*because legend doesn't inherit in IE */
-legend {
-	color:#000;
-}
-/* YUI CSS Detection Stamp */
-#yui3-css-stamp.cssreset { display: none; }
-
-
-// 追加
-ul {
-  list-style-type: none;
-}
-
-input, textarea, select {
-  border: none;
-  border-radius: 0;
-  box-sizing: border-box;
-  background: none;
-  outline: none;
-  appearance: none;
-}
-
-select::-ms-expand {
-  display: none;
-}
-
-input::-ms-expand {
-  display: none;
-}
-
-input[type="radio"] {
-  display: none;
-}
-
 textarea {
-  resize: none;
+resize: none;
+-webkit-appearance: none;
+border-radius: 0;
+}
+th,td {
+border-collapse: collapse;
+}
+table th,table td {
+white-space: nowrap;
+}
+ul,ol {
+list-style-type: none;
+}
+img {
+vertical-align: text-bottom;
+vertical-align: -webkit-baseline-middle;
+max-width: 100%;
+height: auto;
+width /***/:auto;
 }

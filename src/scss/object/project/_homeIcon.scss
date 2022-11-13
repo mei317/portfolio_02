@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.p-homeIcon{
+  z-index: 3;
+  position: absolute;
+  width: 120px;
+  top: 4%;
+  left: 2.5%;
+
+  & img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 50%;
+  }
+}
