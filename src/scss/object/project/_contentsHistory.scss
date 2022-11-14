@@ -33,7 +33,6 @@
       padding: 8px;
       background: #fff;
       margin: 0 0 10px;
-      border-radius: 15px;
       &:first-child{
         width: 102%;
       }
@@ -49,4 +48,28 @@
       line-height: 12px;
     }
   }
+  &__itemText{
+    font-size: 18px;
+    font-weight: 500!important;
+    text-align: center;
+    line-height: 18px;
+    font-family: 'Work sans';
+    color: #333;
+    &:hover{
+      color: #418317;
+    }
+  }
+
+  &__itemMin{
+    font-size: 14px;
+    font-weight: 500!important;
+    text-align: center;
+    line-height: 14px;
+    font-family: 'Work sans';
+    color: #333;
+    &:hover{
+      color: #418317;
+    }
+  }
 }
+

@@ -65,14 +65,14 @@ $sp: 767px;
     }
     & p{
       position: absolute;
-      top: 18%;
-      left: 4%;
+      top: 55px;
+      left: -27px;
       color: #666;
       font-size: 16px;
       font-weight: 500;
-      transform: rotate(-70deg);
-      -moz-transform: rotate(-70deg);
-      -webkit-transform: rotate(-70deg);
+      transform: rotate(-64deg);
+      -moz-transform: rotate(-64deg);
+      -webkit-transform: rotate(-64deg);
     }
   }
 
@@ -82,6 +82,7 @@ $sp: 767px;
 		top: 26%;
 		left: 1%;
 		width: 34%;
+    padding-bottom: 100px;
 		opacity: 0.3;
 		transition: 0.4s;
     &:hover{
@@ -89,8 +90,8 @@ $sp: 767px;
     }
     & p{
       position: absolute;
-      top: 65%;
-      left: 10%;
+      top: 330px;
+      left: 66px;
       color: #666;
       font-size: 16px;
       font-weight: 500;
