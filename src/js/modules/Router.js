@@ -1,4 +1,5 @@
 import Home from '../pages/Home'
+// import Test from '../pages/Test'
 import About from '../pages/About'
 
 export default class Router {
