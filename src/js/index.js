@@ -4,7 +4,6 @@ import '../scss/app.scss'
 
 $(() => {
   new router()
-
   const hoge = 'hoge'
   console.log(hoge)
 })

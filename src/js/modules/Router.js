@@ -1,5 +1,5 @@
 import Home from '../pages/Home'
-import Test from '../pages/Test'
+import Sub from '../pages/Sub'
 import About from '../pages/About'
 
 export default class Router {
@@ -16,7 +16,7 @@ export default class Router {
     switch (pathName) {
       case '/':
         new Home()
-        new Test()
+        new Sub()
         break
       case '/about':
         new About()
