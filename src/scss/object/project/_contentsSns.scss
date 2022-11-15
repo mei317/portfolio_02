@@ -4,7 +4,15 @@
 	padding: 0 5%;
 
   &__list li{
-      margin: 0 0 6%;
+    margin: 0 0 6%;
+    opacity: 0;
+    transition: all 1000ms;
+  }
+
+  &__li.show{
+    transition-duration: 1s;
+    transform: rotateX(0);
+    opacity: 1;
   }
 
   &__list li a{

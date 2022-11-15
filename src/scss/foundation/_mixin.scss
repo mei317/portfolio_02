@@ -3,6 +3,8 @@
 $pc: 768px;
 $sp: 767px;
 
+
+
 @mixin pc {
   @media screen and (min-width: ($pc)){
     @content;
@@ -121,10 +123,28 @@ $sp: 767px;
 		margin-left: 235px;
 	}
 
-  .l-home .p-homeImg{
+  .l-home .p-homeMain{
     width: 100%;
     height: 100%;
 	}
+
+  .p-homeMain{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    &__img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    &__img img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
 
 	.l-spBox .l-home{
 		height: 667px;
@@ -138,6 +158,18 @@ $sp: 767px;
   }
 }
 
+.img-wrap {
+  width: 100%;
+  position: relative;
+}
+
+.img-wrap img {
+  width:100%;
+  left: 0%;
+  position: absolute;
+}
+
+
 @mixin sp {
   @media screen and (max-width: ($sp)){
     @content;
@@ -149,5 +181,3 @@ $sp: 767px;
     display: none;
   }
 }
-
-

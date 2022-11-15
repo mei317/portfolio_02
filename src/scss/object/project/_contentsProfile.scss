@@ -31,4 +31,10 @@
     font-weight: 300;
     font-size: 14px;
   }
+
+  &__text p a{
+    text-decoration: underline;
+    color: #418317;
+    transition: 0.4s;
+  }
 }
