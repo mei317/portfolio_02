@@ -7,6 +7,14 @@
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: flex-start;
+    & li{
+      opacity: 0;
+      overflow: hidden;
+      &:last-child {
+          opacity: 0;
+          overflow: hidden;
+        }
+    }
   }
 
   &__item{
@@ -33,8 +41,6 @@
       padding: 8px;
       background: #fff;
       margin: 0 0 10px;
-      opacity: 0;
-      overflow: hidden;
       &:first-child{
         width: 102%;
       }
@@ -50,6 +56,7 @@
       line-height: 12px;
     }
   }
+
   &__itemText{
     font-size: 18px;
     font-weight: 500!important;
