@@ -10,6 +10,8 @@
   &__text{
     display: block;
     padding: 0 5%;
+    opacity: 0;
+    overflow: hidden;
   }
 
   &__text h3{
@@ -36,5 +38,8 @@
     text-decoration: underline;
     color: #418317;
     transition: 0.4s;
+    &:hover{
+      opacity: 0.3;
+    }
   }
 }

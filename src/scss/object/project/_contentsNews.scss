@@ -10,6 +10,8 @@
     margin: 0 0 6%;
     padding: 0 0 5%;
     border-bottom: 1px solid #ccc;
+    opacity: 0;
+    overflow: hidden;
   }
 
   &__item a{

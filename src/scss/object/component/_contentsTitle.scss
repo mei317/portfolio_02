@@ -2,21 +2,24 @@
 
 .c-contents__title{
   margin: 0 0 12%;
+  opacity: 0;
+  overflow: hidden;
+
+  & span{
+    display: block;
+    margin: 0 0 8px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 14px;
+  }
+
+  & a{
+    text-decoration: underline;
+  }
+
+  & h2{
+    font-size: 42px;
+    font-weight: 300!important;
+  }
 }
 
-.c-contents__title span{
-  display: block;
-  margin: 0 0 8px;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 14px;
-}
-
-.c-contents__title a{
-  text-decoration: underline;
-}
-
-.c-contents__title h2{
-  font-size: 42px;
-  font-weight: 300!important;
-}

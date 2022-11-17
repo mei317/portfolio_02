@@ -33,6 +33,8 @@
       padding: 8px;
       background: #fff;
       margin: 0 0 10px;
+      opacity: 0;
+      overflow: hidden;
       &:first-child{
         width: 102%;
       }
