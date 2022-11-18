@@ -56,8 +56,8 @@ $sp: 767px;
   .l-pc__imgLeft{
 		z-index: 30;
 		position: absolute;
-		top: 24%;
-		right: 1%;
+    top: 250px;
+    left: 50px;
 		width: 34%;
 		opacity: 0.3;
 		transition: 0.4s;
@@ -66,24 +66,23 @@ $sp: 767px;
     }
     & p{
       position: absolute;
-      top: 55px;
-      left: -27px;
+      top: 110px;
+      left: 80px;
       color: #666;
       font-size: 16px;
       font-weight: 500;
-      transform: rotate(-64deg);
-      -moz-transform: rotate(-64deg);
-      -webkit-transform: rotate(-64deg);
+      transform: rotate(-44deg);
+      -moz-transform: rotate(-44deg);
+      -webkit-transform: rotate(-44deg);
     }
   }
 
   .l-pc__imgRight{
     z-index: 30;
 		position: absolute;
-		top: 26%;
-		left: 1%;
+		top: 130px;
+		right: 20px;
 		width: 34%;
-    padding-bottom: 100px;
 		opacity: 0.3;
 		transition: 0.4s;
     &:hover{
@@ -91,16 +90,16 @@ $sp: 767px;
     }
     & p{
       position: absolute;
-      top: 330px;
-      left: 66px;
+      top: 45px;
+      left: 370px;
       color: #666;
       font-size: 16px;
       font-weight: 500;
       -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
-      transform: rotate(-40deg);
-      -moz-transform: rotate(-40deg);
-      -webkit-transform: rotate(-40deg);
+      transform: rotate(-21deg);
+      -moz-transform: rotate(-21deg);
+      -webkit-transform: rotate(-21deg);
     }
   }
 
