@@ -25,6 +25,15 @@ $(document).on("mousemove",(e) => {
   })
 });
 
+// ロード時フェードイン
+// eslint-disable-next-line prefer-arrow-callback
+$(window).on('load', function() {
+  $('body').delay(500).fadeIn(1000),
+  $('.p-homeHeader').delay(1200).fadeIn(1000),
+  $('.p-homeMain h1').delay(1700).fadeIn(1000);
+});
+
+
 
 // トップ画像切替
 $('.img-wrap img:nth-child(n+2)').hide();
@@ -45,7 +54,9 @@ $(window).on('scroll',function(){
         top_margin = 600 ;
     if( scroll_top > offset_top - top_margin ){
         $(this).addClass('fadeIn');
-    }
+    }else{
+      $(this).removeClass('fadeIn');
+  }
   });
 });
 
@@ -59,7 +70,9 @@ $(window).on('scroll',function(){
         top_margin = 800 ;
     if( scroll_top > offset_top - top_margin ){
         $(this).addClass('fadeIn');
-    }
+    }else{
+      $(this).removeClass('fadeIn');
+  }
   });
 });
 
@@ -87,7 +100,7 @@ $(window).on('scroll',function(){
   let scroll_top = $(window).scrollTop();
   $('.p-contentsSns__list li').each(function(){
     let offset_top = $(this).offset().top,
-        top_margin = 700 ;
+        top_margin = 650 ;
     if( scroll_top > offset_top - top_margin ){
         $(this).addClass('fadeIn');
     }else{
