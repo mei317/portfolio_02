@@ -11,20 +11,6 @@ $(() => {
   console.log(test)
 })
 
-
-// カーソル
-
-const cursor = $(".u-cursor");
-$(document).on("mousemove",(e) => {
-  const x = e.clientX
-  const y = e.clientY
-  cursor.css({
-    "opacity": "1",
-    "top": `${y}` + "px",
-    "left": `${x}` + "px"
-  })
-});
-
 // ロード時フェードイン
 // eslint-disable-next-line prefer-arrow-callback
 $(window).on('load', function() {

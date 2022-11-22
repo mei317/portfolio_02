@@ -14,20 +14,7 @@ $sp: 767px;
 	html .l-body{
 		position: relative;
 		min-width: 1080px;
-    // cursor: none;
 	}
-
-  .u-cursor{
-    width: 8px;
-    height: 8px;
-    background-color: #51A751;
-    z-index: 20000;
-
-    position: fixed;
-    border-radius:10px;
-    pointer-events: none;
-    opacity: 0;
-  }
 
   .l-body .l-pcBody{
     position: relative;
